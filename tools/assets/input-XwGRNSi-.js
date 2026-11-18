@@ -1,0 +1,1 @@
+import{l as e,t}from"./jsx-runtime-DP3ro8E4.js";import{r as n}from"./index-pzRVsKfl.js";e();var r=t();function i({className:e,...t}){return(0,r.jsx)(`input`,{className:n(`flex h-11 w-full rounded-lg border border-line bg-paper px-3 text-base text-ink placeholder:text-muted disabled:opacity-50`,e),...t})}export{i as t};

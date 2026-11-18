@@ -1,0 +1,1 @@
+function e(e,t){let n=URL.createObjectURL(e),r=document.createElement(`a`);r.href=n,r.download=t,document.body.append(r),r.click(),r.remove(),window.setTimeout(()=>URL.revokeObjectURL(n),1500)}function t(t,n,r){e(new Blob([t],{type:r}),n)}async function n(e){try{return await navigator.clipboard.writeText(e),!0}catch{return!1}}export{e as n,t as r,n as t};
